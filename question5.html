@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Assignment Work Number 5</title>
+<style>
+    body {
+      background-color: skyblue;
+    }
+    </style>
+<body>
+
+<h2>My Webpage with my introduction</h2>
+    <p>My javascript alert box with my introduction when opening the webpage</p>
+    <button onclick="myFunction()">please click me for introduction</button>
+    <script>
+    function myFunction() {
+    alert("hello my name is Leeroy Katsukunya. This is my webpage for my assignment with various types of javascripts");
+}
+</script>
+    <br>
+    ……………………………………
+<h2> javascript which shows Greeting</h2>
+    <p> My javascript also provides with a time based output where user is greeted depending with time of day</p>
+        
+        <p id="TIME"></p>
+        
+        <script>
+        const hour = new Date().getHours(); 
+        let greeting;
+        if (hour > 12) {
+          greeting = "***Goodmorning***";
+        } else {
+          greeting = "***Goodevening***";
+        }
+        document.getElementById("TIME").innerHTML = greeting;
+        </script>
+        <br>
+        ……………………………………
+    
+<h2>javascript for Date and time</h2>
+    <p>button shows current date and time when clicked</p>
+    <button type="button"
+     onclick="document.getElementById('time').innerHTML = Date()">
+     Click here to display time and date.</button>
+     <p id="time"></p>
+     <br>
+    ……………………………………
+
+<h2>The window.print javascript</h2>
+    <p>The button below allows user to print current page where button is located</p>
+    <button onclick="window.print()">Print this page</button>
+    <br>
+    ………………………………
+
+<h2>Solve button</h2>
+    <p>button solves mathematical problem given in the script which is [1 + 99]</p>
+    <button type="button" onclick="document.write(1 + 99)">Solve</button>
+   
+
+
+</body>
+</html>
+    
